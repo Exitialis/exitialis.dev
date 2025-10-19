@@ -57,24 +57,57 @@ education:
     date_end: 2018-06-30
   
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: TechLead 
+    company_name: Avito
+    company_url: 'https://avito.ru/'
     company_logo: ''
-    date_start: 2020-01-01
-    date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2024-06-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      TechLead команды Bridge. Команда отвечает за надёжность всех сервисов в Авито, улучшает надёжность, помогает решать критичный архитектурный долг и критичные проблемы с техническим долгом.
+      С сентября 2025 также возглавляю команду Arch, которая отвечает за архитектуру всех сервисов в Авито в целом.
+  - position: Senior Backend Developer
+    company_name: Avito
+    company_url: 'https://avito.ru/'
+    company_logo: ''
+    date_start: 2020-03-20
+    date_end: 2024-06-01
+    summary: |
+      Senior backend developer. Работал в команде, которая распиливала большой PHP монолит на Symfony на микросервисы.
+      Лично распилил несколько крупных кусков суммарно с 500k rpm на несколько сервисов. Овнил функционал сохранённых поисков.
+      Разработал систему для оценки качества архитектуры и поиска архитектурных проблем arch-rater.
+  - position: Senior Backend Developer
+    company_name: Carprice
+    company_url: 'https://carprice.ru/'
+    company_logo: ''
+    date_start: 2019-03-10
+    date_end: 2020-03-01
+    summary: |
+      Senior backend developer. Помогал распиливать большой Bitrix24 монолит на микросервисы с использованием Laravel и Go.
+      Реализовал backend сервиса, который общается с BPM и позволяет работать с внутренним документооборотом, предоставляя простой интерфейс для пользоваталей.
+      Интегрировал быструю оплату по номеру телефона для клиентов Тинькофф банка. На тот момент это было что-то вроде СБП, при помощи которого дилеры могли проводить платежи с компанией Carprice. Это сократило время получения платежа на несколько дней и ускорило сделки с автомобилями.
+  - position: Middle Fullstack Developer
+    company_name: Onlinesim
+    company_url: 'https://onlinesim.ru/'
+    company_logo: ''
+    date_start: 2017-11-01
+    date_end: 2019-03-10
+    summary: |
+      Middle developer. Разработал отдельный портал whitenum для определения использования одноразовых телефонов при регистрации на популярных ресурсов, с целью предоставления API для крупных компаний, при помощи которого они смогли бы проверять номер пользователя при регистрации. Использовал Laravel + Vue.js
+      Разработал приложение на Electron, которое взаимодействует с внешним оборудованием (Sim-модемами) и общается по последовательному Com порту.
+      Перевёл архитектуру сайта на несколько микросервисов, чтобы можно было отдельить бизнес логику и обеспечить отдельный деплой.
+      Настроил автоматизированный пайплайн CI/CD. Ранее для деплоя использовался php скрипт на deployer, который просто скачивал код из репозитория и обновлял его на сервере.
+  - position: Junior Fullstack Developer
+    company_name: Simex Inc.
+    company_url: 'https://simex.global/'
+    company_logo: ''
+    date_start: 2016-12-01
+    date_end: 2015-01-20
+    summary: |
+      Junior Fullstack Developer. Работал над улучшением сайта, работающего под фреймворком Laravel.
+      В качестве фронтенда использовался Vue.js. Работал над сайтом краудинвестинговой платформы.
+      **Одно из ключевых достижений**: Разработал админ панель для переводчиков, при помощи которой они смогли перевести весь сайт на другие языки. При помощи регулярных выражений и консольных команд достал из всего кода захардкоженный текст, заменил его на получение значения по ключу из i18n и сохранил все языковые настройки в БД.
 
-# Skills
+  # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
@@ -95,10 +128,10 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Компьютерные игры
         description: ''
         percent: 80
-        icon: person-simple-walk
+        icon: bolt
       - name: Building Custom PCs
         description: ''
         percent: 90
@@ -109,10 +142,10 @@ skills:
         icon: book-open
 
 languages:
-  - name: English
+  - name: Russian
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: English
+    percent: 90
 
 # Awards.
 #   Add/remove as many awards below as you like.
