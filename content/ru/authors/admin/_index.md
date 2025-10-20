@@ -107,39 +107,61 @@ work:
       В качестве фронтенда использовался Vue.js. Работал над сайтом краудинвестинговой платформы.
       **Одно из ключевых достижений**: Разработал админ панель для переводчиков, при помощи которой они смогли перевести весь сайт на другие языки. При помощи регулярных выражений и консольных команд достал из всего кода захардкоженный текст, заменил его на получение значения по ключу из i18n и сохранил все языковые настройки в БД.
 
-  # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Технические скиллы
     items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
+      - name: PHP
+        description: 'Начинал с PHP 5.0, знаю все актуальные изменения. Работал с Birtix24, Wordpress, Laravel, Symfony и многим другим.'
         percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
+        icon: code-bracket
+      - name: Go
+        description: 'Мой основной стек на текущий момент. Знаю все тонкости, умею тюнить GC, профилировать приложения и разбираться в сложных проблемах.'
+        percent: 100
+        icon: code-bracket
+      - name: Javascript / Vue.js
+        description: 'До 2021 года имел очень актуальный опыт работы с Vue.js, знал все тонкости. Сейчас уже чуть подзабылось, из-за того, что неиспользую.'
+        percent: 80
+        icon: code-bracket
+      - name: Python / ML
+        description: 'Работа с базовыми ML моделями + сетап RAG LLM системы с векторной БД.'
+        percent: 80
+        icon: code-bracket
+      - name: Docker/Kubernetes
+        description: 'Умение полностью с нуля написать нужный Dockerfile, управлять kubernetes из kubectl и чинить кластеры в проде.'
+        percent: 100
         icon: cloud
-  - name: Hobbies
+      - name: Linux / Terminal / Bash
+        description: 'Умение использовать terminal и знание стандартных и не только команд. Умение настраивать сервера.'
+        percent: 90
+        icon: command-line
+
+  - name: Хобби
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Компьютерные игры
         description: ''
-        percent: 80
         icon: bolt
-      - name: Building Custom PCs
+      - name: Работа с железом
         description: ''
-        percent: 90
+        icon: computer-desktop
+      - name: Путешествия
+        description: ''
+        icon: paper-airplane
+      - name: Электроника
+        description: ''
         icon: cpu-chip
-      - name: Sci-Fi Reading
+      - name: 3D печать
         description: ''
-        percent: 70
-        icon: book-open
+        icon: printer
+      - name: Строительство / работа с деревом
+        description: ''
+        icon: wrench-screwdriver
+      - name: Умный дом
+        description: ''
+        icon: home-modern
+
+
 
 languages:
   - name: Russian
@@ -152,13 +174,13 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: Топ-10 доклад на Highload 2024
+    url: https://highload.ru/
+    date: '2024-12-01'
+    awarder: Highload
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
+      Награда за доклад, вошедший в топ-10 лучших докладов на highload по контенту и подаче.
   - title: AI Innovation Grant
     url: https://www.nsf.gov/
     date: '2021-06-15'
