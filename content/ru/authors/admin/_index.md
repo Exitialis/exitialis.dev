@@ -39,9 +39,9 @@ profiles:
   - icon: brands/github
     url: https://github.com/exitialis
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://https://www.linkedin.com/in/exitialis/
   - icon: brands/telegram
-    url: https://t.me/exitialis
+    url: https://t.me/exitialis_dev
 
 
 interests:
@@ -49,6 +49,9 @@ interests:
   - Team Management
   - Large Language Models
   - Reinforcement Learning
+  - 3D Printing
+  - Electronics
+  - Engineering things
 
 education:
   - area: BS Information Systems and Technology
@@ -181,20 +184,6 @@ awards:
     icon: hero/trophy
     summary: |
       Награда за доклад, вошедший в топ-10 лучших докладов на highload по контенту и подаче.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
 ---
 
 Иван Нещадин - TechLead нескольких ключевых команд в Авито, которые отвечают за работу платформы, на которой строится сайт Авито, в частности за надёжность и архитектурные решения всего Авито. Более чем 10-ти летний опыт работы в разных IT компаниях, от небольших до больших. IT-энтузиаст, увлекаюсь инженерией, 3Д-печатью, электроникой. Веду блог про IT и инженерию, рассказываю про управление командами разработчиков.

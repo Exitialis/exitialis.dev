@@ -11,11 +11,8 @@ main:
     url: /blog
     weight: 11
   - name: Выступления
-    url: /#talks
+    url: /talks
     weight: 12
   - name: Опыт работы
     url: experience/
     weight: 20
-  - name: Проекты
-    url: projects/
-    weight: 30

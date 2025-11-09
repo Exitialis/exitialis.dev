@@ -1,6 +1,6 @@
 ---
 title: 'Опыт работы'
-date: 2023-10-24
+date: 2025-10-24
 type: landing
 
 design:
@@ -26,10 +26,10 @@ sections:
       show_skill_percentage: false
   - block: resume-awards
     content:
-      title: Awards
+      title: Достижения
       username: admin
   - block: resume-languages
     content:
-      title: Languages
+      title: Языки
       username: admin
 ---
