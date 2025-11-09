@@ -53,8 +53,8 @@ sections:
       title: Публичные выступления
       filters:
         folders:
-          - events
+          - talks
     design:
       view: article-grid
-      columns: 4
+      columns: 2
 ---
