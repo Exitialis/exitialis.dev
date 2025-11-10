@@ -37,12 +37,12 @@ sections:
     design:
       columns: '1'
   - block: collection
-    id: papers
+    id: blog
     content:
-      title: Featured Publications
+      title: Последние записи из блога
       filters:
         folders:
-          - publications
+          - blog
         featured_only: true
     design:
       view: article-grid
